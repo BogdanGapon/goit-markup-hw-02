@@ -1,0 +1,159 @@
+:root {
+  --black-color: #212121;
+}
+
+:root {
+  --white-color: #ffffff;
+}
+
+:root {
+  --font-text: 14px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.logo-span {
+  color: #2196f3;
+}
+.nav-link {
+  font-size: var(--font-text);
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.header-link {
+  font-size: var(--font-text);
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+  color: #757575;
+}
+
+.header-link:hover,
+.lheader-link:focus {
+  color: #2196f3;
+}
+
+/* Не могу сделать текст белым из-за фона*/
+.big-title {
+  color: var(--black-color);
+  font-weight: 900;
+  line-height: 1.36;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.order {
+  font-family: 'Roboto', sans-serif;
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background: #188ce8;
+  border: 0px;
+}
+
+.order:hover,
+.order:focus {
+  background: #2196f3;
+}
+
+.small-title {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-color);
+  font-size: var(--font-text);
+}
+
+.text-title {
+  font-size: var(--font-text);
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+}
+
+.staff {
+  color: var(--black-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+.staff-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: var(--font-text);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.button-portfolio {
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white-color);
+  background: #2196f3;
+  border: 0;
+  border-radius: 4px;
+}
+
+.portfolio-title {
+  color: var(--black-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.services {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
