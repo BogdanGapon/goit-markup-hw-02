@@ -15,32 +15,35 @@
   </head>
   <body>
     <header>
-      <a href="" class="logo"><span class="logo-span">Web</span>Studio</a>
+      <a href="" class="header-logo"><span class="logo-span">Web</span>Studio</a>
       <nav>
-        <ul class="ul">
-          <li><a href="" class="nav-link">Студия</a></li>
-          <li><a href="./porfolio.html" class="nav-link">Портфолио</a></li>
-          <li><a href="" class="nav-link">Контакты</a></li>
+        <ul class="marker-list">
+          <li><a class="nav-link current" href="">Студия</a></li>
+          <li><a class="nav-link" href="./porfolio.html">Портфолио</a></li>
+          <li><a class="nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="marker-list">
         <li>
-          <a href="mailto:info@devstudio.com" class="header-link">info@devstudio.com</a>
+          <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li><a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a></li>
+        <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1 class="big-title">
+      <!-- SECTION HERO START -->
+      <section class="hero">
+        <h1 class="main-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button type="button" class="order">Заказать услугу</button>
+        <button type="button" class="btn-order-service">Заказать услугу</button>
       </section>
+      <!-- SECTION HERO END -->
+      <!-- SECTION OPPORTUNITIES START -->
       <section>
-        <!-- <h2>Наши преимущества</h2> -->
-        <ul>
+        <h2 hidden>Наши преимущества</h2>
+        <ul class="marker-list">
           <li>
             <h3 class="small-title">Внимание к деталям</h3>
             <p class="text-title">
@@ -67,9 +70,11 @@
           </li>
         </ul>
       </section>
+      <!-- SECTION OPPORTUNITIES END -->
+      <!-- SECTION ABOUT US START -->
       <section>
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="marker-list">
           <li>
             <img src="./images/img-1.jpg" alt="Компьютер" width="370" height="294" />
           </li>
@@ -81,43 +86,51 @@
           </li>
         </ul>
       </section>
-      <section>
+      <!-- SECTION ABOUT US END -->
+      <!-- SECTION COMMAND START -->
+      <section class="section-command">
         <h2 class="section-title">Наша команда</h2>
-        <ul>
+        <ul class="marker-list">
           <li>
             <img src="./images/photo-1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-            <h3 class="staff">Игорь Демьяненко</h3>
-            <p class="staff-position" lang="en">Product Designer</p>
+            <h3 class="title-staff">Игорь Демьяненко</h3>
+            <p class="text-staff-position" lang="en">Product Designer</p>
           </li>
           <li>
             <img src="./images/photo-2.jpg" alt="Ольга Репина" width="270" height="260" />
-            <h3 class="staff">Ольга Репина</h3>
-            <p class="staff-position" lang="en">Frontend Developer</p>
+            <h3 class="title-staff">Ольга Репина</h3>
+            <p class="text-staff-position" lang="en">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/photo-3.jpg" alt="Николай Тарасов" width="270" height="260" />
-            <h3 class="staff">Николай Тарасова</h3>
-            <p class="staff-position" lang="en">Marketing</p>
+            <h3 class="title-staff">Николай Тарасова</h3>
+            <p class="text-staff-position" lang="en">Marketing</p>
           </li>
           <li>
             <img src="./images/photo-4.jpg" alt="Михаил Ермаков" width="270" height="260" />
-            <h3 class="staff">Михаил Ермаков</h3>
-            <p class="staff-position" lang="en">UI Designer</p>
+            <h3 class="title-staff">Михаил Ермаков</h3>
+            <p class="text-staff-position" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
+      <!-- SECTION COMMAND END -->
     </main>
-    <footer>
-      <a href="" class="logo"><span class="logo-span">Web</span>Studio</a>
+    <footer class="footer">
+      <a href="" class="footer-logo"><span class="logo-span">Web</span>Studio</a>
       <address>
-        <ul>
+        <ul class="marker-list">
           <li>
-            <a class="header-link" href="https://goo.gl/maps/3jRDSdYq94xRZy5t9" target="_blank"
+            <a
+              class="footer-link-contact footer-link-adress"
+              href="https://goo.gl/maps/3jRDSdYq94xRZy5t9"
+              target="_blank"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com" class="header-link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a></li>
+          <li>
+            <a class="footer-link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="footer-link-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
