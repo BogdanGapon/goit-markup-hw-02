@@ -1,22 +1,16 @@
 :root {
   --main-color: #757575;
-}
 
-:root {
   --dark-color: #212121;
-}
 
-:root {
   --secondary-color: #ffffff;
-}
 
-:root {
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+
   --hover-color: #2196f3;
-}
-:root {
+
   --font-text: 14px;
-}
-:root {
+
   --font-weight-main: 500;
 }
 
@@ -27,6 +21,8 @@ body {
 .marker-list {
   list-style-type: none;
 }
+
+/* =====HEADER START====== */
 
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -84,7 +80,9 @@ body {
 .lcontact-link:focus {
   color: var(--hover-color);
 }
+/* =====HEADER END====== */
 
+/* =======HERO START====== */
 .hero {
   background: #2f303a;
 }
@@ -114,7 +112,9 @@ body {
 .btn-order-service:focus {
   background-color: var(--hover-color);
 }
+/* =======HERO END====== */
 
+/* ======SECTION OPPORTUNITIES START======= */
 .small-title {
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -134,13 +134,16 @@ body {
 }
 
 .section-title {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--dark-color);
 }
+/* ======SECTION OPPORTUNITIES END======= */
 
+/* ======SECTION COMMAND START====== */
 .title-staff {
   color: var(--dark-color);
   font-size: 16px;
@@ -154,19 +157,13 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+/* ======SECTION COMMAND END====== */
 
-.footer-link {
-  text-decoration: none;
-  color: var(--dark-color);
-  font-size: var(--font-text);
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
+/* =======PAGE PORTFOLIO START====== */
 .button-portfolio {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
-  color: var(--mark-color);
+  color: var(--dark-color);
   font-size: 16px;
   font-weight: var(--font-weight-main);
   line-height: 1.62;
@@ -194,7 +191,9 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+/* =======PAGE PORTFOLIO END======= */
 
+/* ======FOOTER START====== */
 .footer {
   background: #2f303a;
 }
@@ -211,9 +210,9 @@ body {
 .footer-link-contact {
   font-size: var(--font-text);
   font-weight: var(--font-weight-main);
-  line-height: 1.14;
+  line-height: 1.71;
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--footer-link-color);
   letter-spacing: 0.03em;
   font-style: normal;
 }
@@ -222,7 +221,16 @@ body {
 .footer-link-contact:focus {
   color: var(--hover-color);
 }
+.footer-link {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: var(--font-text);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 
 .footer-link-adress {
   color: var(--secondary-color);
 }
+
+/* ======FOOTER END====== */
